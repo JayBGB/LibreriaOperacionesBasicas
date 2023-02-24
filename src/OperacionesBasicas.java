@@ -28,6 +28,11 @@ public class OperacionesBasicas {
      *      * static final int RAIZ = 1;
      */
     static final int RAIZCUADRADA = 5;
+    /**
+     * Elección de operación RAIZ CON INDICE
+     *      * static final int RAIZINDEX = 1;
+     */
+    static final int RAIZINDEX = 6;
 
     /**
      * @param device --> [1,2,3,4] seleccionar Operacion  (SUMA, RESTA, MULTIPLICACIÓN, DIVISIÓN)
@@ -72,6 +77,12 @@ public class OperacionesBasicas {
                 }catch(Exception e){
                     System.out.println("Error en la raíz.");
                 }
+            case RAIZINDEX:
+                try{
+                    resultado = (float) (Math.pow(num1, 1/num2));
+                }catch(Exception e){
+                System.out.println("Error en la raíz.");
+            }
 
         }
         return resultado;
