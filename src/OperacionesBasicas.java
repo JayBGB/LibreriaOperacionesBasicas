@@ -21,7 +21,6 @@ public class OperacionesBasicas {
     /**
      * Elección de operación DIVIDIR
      *      *  static final int DIVIDIR = 1;
-     *
      */
     static final int DIVISION = 4;
 
