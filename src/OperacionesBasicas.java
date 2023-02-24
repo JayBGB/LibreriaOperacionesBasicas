@@ -1,7 +1,12 @@
+/**
+ * @author JayBGB
+ * @version 1.0
+ */
 public class OperacionesBasicas {
     /**
      * private static FLOAT Resultado
      */
+
     private static Float resultado = null;
     /**
      * Elección de operación suma
