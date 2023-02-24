@@ -27,7 +27,7 @@ public class OperacionesBasicas {
      * Elección de operación RAIZ
      *      * static final int RAIZ = 1;
      */
-    static final int RAIZ = 5;
+    static final int RAIZCUADRADA = 5;
 
     /**
      * @param device --> [1,2,3,4] seleccionar Operacion  (SUMA, RESTA, MULTIPLICACIÓN, DIVISIÓN)
@@ -66,7 +66,7 @@ public class OperacionesBasicas {
                     System.out.println("Error en la división");
                 }
                 break;
-            case RAIZ:
+            case RAIZCUADRADA:
                 try{
                     resultado = (float)(Math.sqrt(num1));
                 }catch(Exception e){
