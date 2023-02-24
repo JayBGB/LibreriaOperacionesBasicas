@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"<Unnamed>","c":"OperacionesBasicas","l":"OperacionesBasicas()","url":"%3Cinit%3E()"},{"p":"<Unnamed>","c":"OperacionesBasicas","l":"realizar(int, float, float)","url":"realizar(int,float,float)"}]
